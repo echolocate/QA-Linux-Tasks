@@ -1,0 +1,5 @@
+ssh user@host << EOF
+echo 'Hello'
+ls -al
+mkdir test
+EOF

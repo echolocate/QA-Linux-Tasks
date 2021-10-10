@@ -1,0 +1,14 @@
+touch file file1
+# set all permisions to none
+chmod ugo-rwx file1
+ls -l file1
+# r/w/x for owner
+chmod u+rwx file1
+# read for all
+chmod ugo+r file1
+# group add rw
+chmod g=rw file1
+# owner, group remove write
+chmod ug-w file1
+# owner group others all permissions
+chmod 777 file1
